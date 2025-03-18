@@ -1,0 +1,29 @@
+---
+const { title } = Astro.props;
+---
+
+<header>
+  <h1>{title}</h1>
+  <slot />
+</header>
+
+<style>
+  
+  header {
+  padding: 2rem 4rem;
+  background-color: #BF3F22;
+  color: #FFFFED;
+
+   font-weight: 100;
+   font-size: xx-large ;
+}
+
+.headerp{
+     font-family: "Roboto";
+}
+
+title{
+    font-size: xx-large;
+    font-family: "Playfair Display";
+}
+</style>
